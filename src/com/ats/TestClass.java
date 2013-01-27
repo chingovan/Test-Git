@@ -6,8 +6,9 @@ public class TestClass {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World!");
+		
+		Person person = new Person("Ngo Van Chi", 25);
+		System.out.println(person);
 	}
 
 }
